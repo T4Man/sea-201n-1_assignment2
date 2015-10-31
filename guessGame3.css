@@ -1,0 +1,81 @@
+/*stylesheet for Code 201 assignment 2*/
+
+body {
+  background-color: #ddd;
+  max-width: 1024px;
+  max-height: 400px;
+}
+
+header {
+  border-top: 10px solid darkblue;
+  border-bottom: 10px solid darkblue;
+  background-color: lightblue;
+}
+
+footer {
+  border-bottom: 10px solid darkblue;
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: rgba(25, 25, 25, 1);
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  color: #eee;
+  text-align: center;
+}
+
+figcaption {
+  max-width: 50%;
+}
+
+img {
+  padding-left: 43px;
+  padding-right: 43px;
+}
+
+div {
+  color: #eee;
+  max-width: 220px;
+  padding: 10px;
+  background-color: #111;
+}
+
+button {
+  font-size: 1.5em;
+  margin-left: 40px;
+}
+
+.main-header {
+  padding-top: 170px;
+  max-width: 90%;
+}
+
+.figure1 {
+  float: left;
+  margin-left: 35%;
+  width: 220px;
+  display: inline-block;
+  margin-bottom: -10px;
+}
+
+.primary-content {
+  height: 140px;
+  background-color: blue;
+  margin-top: 5px;
+  margin-left: 33%;
+  display: inline-block;
+}
+
+
+
