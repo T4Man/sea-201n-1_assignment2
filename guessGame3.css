@@ -2,8 +2,8 @@
 
 body {
   background-color: #ddd;
-  max-width: 1024px;
-  max-height: 400px;
+  max-width: 700px;
+  max-height: 700px;
 }
 
 header {
@@ -31,7 +31,6 @@ h3 {
 }
 
 h4 {
-  color: #eee;
   text-align: center;
 }
 
@@ -51,7 +50,7 @@ div {
   background-color: #111;
 }
 
-button {
+.game {
   font-size: 1.5em;
   margin-left: 40px;
 }
@@ -70,7 +69,6 @@ button {
 }
 
 .primary-content {
-  height: 140px;
   background-color: blue;
   margin-top: 5px;
   margin-left: 33%;

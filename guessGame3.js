@@ -1,3 +1,4 @@
+
 function aboutMeGame() {
   var correctAnswers = 0;
   var answer1 = prompt("Did I grow up in Puyallup? Yes or no.");
@@ -40,3 +41,37 @@ function aboutMeGame() {
     alert("You should get to know me better.");
   }
 }
+
+function planetGame() {
+  var correctAnswers = 0;
+  var planet = ["VENUS", "MARS", "NEPTUNE"];
+  var question = [
+    "Which is the hottest planet?",
+    "Which planet has the tallest mountain?",
+    "Which planet was discovered using math instead of a telescope?"
+  ];
+  for (var index = 0; index < question.length; index++) {
+    question[index] = prompt(question[index]).toUpperCase();
+    if (question[index] === planet[index]) {
+      alert("Excellent! That's right!");
+      correctAnswers += 1;
+      } else {
+        alert("Sorry. The correct answer is " + planet[index]);
+      }
+  }
+  alert("You got " + correctAnswers + " question(s) correct.");
+  if (correctAnswers === 3) {
+    alert("Who are you? Neil deGrasse Tyson?");
+  } else if
+    (correctAnswers === 2) {
+    alert("Not bad!");
+  } else {
+    alert("You may want to study up.");
+    }
+}
+
+$('#spouse').hide();
+  $('.spouse').on('click', function(){
+    $('#spouse').slideToggle("slow", "linear");
+  });
+
