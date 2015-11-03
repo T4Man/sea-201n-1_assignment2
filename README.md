@@ -16,3 +16,4 @@ A pirate walks into a bar with the wheel of his ship stuffed into his pants.
 The bartender looks at the wheel and says, “That looks mighty uncomfortable!”
 To which the pirate replies, “ARRRGH… it’s drivin’ me nuts!”
 
+Oh yeah!? Well, if I had a day job maybe I WOULD keep it!
