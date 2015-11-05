@@ -1,31 +1,50 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>T4Man's All About Me Page</title>
-    <link rel="stylesheet" href="guessGame3.css">
-  </head>
-  <body>
-    <header class="main.header">
-      <h1>IT'S ALL ABOUT ME!</h1>
-    </header>
-    <figure class="figure1">
-      <img src="http://timali4man.com/Images/Tim.jpg"
-           alt="Tim" style="width:89px;height:128px">
-        <p>Hi! I'm Tim Forman. I like to write my name as
-          <b>T4Man</b> because it's easier to pronounce.
-        </p>
-    </figure>
-    <div class="primary-content">
-      <p>Here's a little game all about ME!</p>
-      <button class="game" onclick="aboutMeGame()"><b>Click Me!<b></button>
-      <hr>
-      <p>Here's a short game about the Solar System</p>
-      <button class="game" onclick="planetGame()"><b>Click Me!<b></button>
-    </div>
-    <footer></footer>
-    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="guessGame3.js"></script>
-  </body>
-</html>
+<head>
+  <meta charset="utf-8" />
+  <title>T4Man's All About Me Page</title>
+  <link rel="stylesheet" href="guessGame3.css">
+</head>
+<body>
+  <header class="main.header">
+    <h1>IT'S ALL ABOUT ME!</h1>
+  </header>
+  <figure class="figure1">
+    <img src="http://timali4man.com/Images/Tim.jpg"
+         alt="Tim" style="width:89px;height:128px">
+      <p>Hi! I'm Tim Forman. I like to write my name as
+        <b>T4Man</b> because it's easier to pronounce.
+      </p>
+  </figure>
+  <div class="primary-content">
+    <p>Here's a little game all about ME!</p>
+    <form id="meGame">
+      <div>
+        <label for="QuestionOne">1. Where did I grow up?</label>
+        <input type="text" id="answerOne" placeholder="Enter answer here" />
+      </div>
+      <div>
+        <label for="QuestionTwo">2. Have I been to China?</label>
+        <input type="text" id="answerTwo" placeholder="Enter answer here" />
+      </div>
+      <div>
+        <label for="QuestionThree">3. I once saved a duck from being eaten by a _____?</label>
+        <input type="text" id="answerThree" placeholder="Enter answer here" />
+      </div>
+    <button id="meGameSubmit" type="button">Click here to submit your answers</button>
+    <button id="clearForm" type="reset">Reset</button>
+    </form>
+  </div>
+  <div id="answers">
+    <table id="meGameTable">
+      <tr>1. I grew up in Puyallup</tr><br />
+      <tr>2. Yes, I have been to China</tr><br />
+      <tr>3. I once saved a duck from being eaten by a snake.</tr><br />
+      <tr>Correct answers = </tr>
+    </table>
+  </div>
+    <hr>
+  <footer></footer>
+  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="guessGame3.js"></script>
+</body>
