@@ -44,10 +44,13 @@ img {
 }
 
 div {
-  color: #eee;
   max-width: 220px;
   padding: 10px;
   background-color: #111;
+}
+
+div > label {
+  color: white;
 }
 
 .game {
@@ -69,11 +72,23 @@ div {
 }
 
 .primary-content {
-  background-color: blue;
+  background-color: lightblue;
   margin-top: 5px;
   margin-left: 33%;
   display: inline-block;
+  border: solid 4px black;
 }
 
+#answers {
+  background-color: lightblue;
+  margin-top: 5px;
+  margin-left: 33%;
+  display: inline-block;
+  border: solid 4px black;
+}
+
+table {
+  color: black;
+}
 
 
